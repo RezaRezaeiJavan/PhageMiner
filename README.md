@@ -66,7 +66,7 @@ PhageMiner can run on both **Linux** and **macOS**. It has been tested on the fo
 * macOS High Sierra – 10.13
 
 ## Output files
-PhageMiner produces GenBank files for each identified prophage region. It also produces genome diagrams of the prophage sequences within the bacterial genome. Based on user input during the discovery process, PhageMiner categorises identifed prophage regions into three groups: full-length prophages, satellite prophages and unknown phage-related regions. PhageMiner also produces a table containing the nucleotide sequences and annotations of all phage-related genes in the bacterial genome. Furthermore, a PDF diagram of the host genome is produced, in which the prophage regions and assembly gaps are highlighted.  Each of these features can be inactivated based on the user's preference.  
+PhageMiner produces GenBank files for each identified prophage region. It also produces genome diagrams of the prophage sequences within the bacterial genome. Based on user input during the discovery process, PhageMiner categorises identifed prophage regions into three groups: full-length prophages, satellite prophages and unknown phage-related regions. PhageMiner also produces a table containing the nucleotide sequences and annotations of all phage-related genes in the bacterial genome. Furthermore, a PDF diagram of the host genome is produced, in which the prophage regions and assembly gaps are highlighted.  Most features can be inactivated based on the user's preference.  
 
 ## Feedback/Issues
 Please report any issues to the [issues page](https://github.com/RezaRezaeiJavan/PhageMiner/issues) or email reza.rezaeijavan@ndm.ox.ac.uk.
