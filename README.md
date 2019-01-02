@@ -24,7 +24,7 @@ python PhageMiner.py <input file>
 ```
 
 ## Input file
-PhageMiner only requires an annotated Genbank file as input. It can work with annotated GenBank (GBK) files automatically downloaded from the NCBI server. However, for the best result, it is highly recommended to freshly annotate your bacterial genome using the RAST (Rapid Annotation using Subsystem Technology) server (http://rast.nmpdr.org/). PhageMiner can also work with files annotated using rapid prokaryotic genome annotation (PROKKA).
+PhageMiner only requires an annotated Genbank file as input. It can work with annotated GenBank (GBK) files automatically downloaded from the NCBI server. However, for the best result, it is highly recommended to freshly annotate your bacterial genome using the RAST (Rapid Annotation using Subsystem Technology) server (http://rast.nmpdr.org/). PhageMiner can also work with files annotated using the [PROKKA](https://github.com/tseemann/prokka) (Rapid Prokaryotic Genome Annotation) pipeline.
 
 An annotated *Streptococcus agalactiae* draft genome is provided as an example input file.
 
