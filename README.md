@@ -1,35 +1,33 @@
 # PhageMiner
-PhageMiner is a user-supervised semi-automated bioinformatics tool for prophage identification in bacterial genomes
+**PhageMiner** is a user-supervised semi-automated bioinformatics tool for prophage identification in bacterial genomes.
 
-Author: Reza Rezaei Javan
+The main objective of the PhageMiner software is to streamline the otherwise tedious manual curation process for prophage sequence discovery. PhageMiner uses a mean shift algorithm combined with annotation-based genome mining in
+order to rapidly identify prophage sequences within complete or fragmented bacterial genomes that result from whole genome sequencing (genomes with multiple contigs). PhageMiner requires only minimal manual input from the user and produces various genome diagrams to ensure a thorough discovery of previously unidentified prophages. 
 
-E-mail: reza.rezaeijavan@ndm.ox.ac.uk
+PhageMiner can run on both Linux and macOS. 
+
+**Author**: Reza Rezaei Javan
+
+**E-mail**: reza.rezaeijavan@ndm.ox.ac.uk
 
 Copyright (C) 2019 University of Oxford
 
-## General remarks
-This script can run on both Linux and macOS. It has been tested on the following operating systems:
-Linux Ubuntu – 14.04.5 LTS
-macOS Mojave – 10.14
-macOS High Sierra – 10.13
-
 ## Usage
-To use PhageMiner, put the main script (PhageMiner.py) and the annotated GenBank file of the bacterial genome (*.gb) in the same folder. 
-Run the software using the following command:
+To use PhageMiner, put the main script (PhageMiner.py) and the input file (.gb) in the same folder. Next, run the software using the following command:
 ```
 python PhageMiner.py <input file>
 ```
 
 ## Installation
-PhageMiner has the following dependencies:
 
 ### Required dependencies
+PhageMiner has the following python dependencies:
 * biopython
 * pandas
 * sklearn
 * reportlab
 
-There are a number of ways to install these dependencies and details are provided below for those not familiar with command line interfaces.
+There are a number of ways to install these dependencies and guidelines are provided below for those not familiar with command line interfaces.
 
 ### biopython
 To install biopython, insert the following command in the terminal:
@@ -51,3 +49,8 @@ To install reportlab, insert the following command in the terminal:
 ```
 pip install reportlab
 ```
+### Operating Systems
+PhageMiner can run on both **Linux** and **macOS**. It has been tested on the following operating systems:
+* Linux Ubuntu – 14.04.5 LTS
+* macOS Mojave – 10.14
+* macOS High Sierra – 10.13
