@@ -2,7 +2,7 @@
 **PhageMiner** is a user-supervised semi-automated bioinformatics tool for prophage identification in bacterial genomes.
 
 The main objective of the PhageMiner software is to streamline the otherwise tedious manual curation process for prophage sequence discovery. PhageMiner uses a mean shift algorithm combined with annotation-based genome mining in
-order to rapidly identify prophage sequences within complete or fragmented bacterial genomes that result from whole genome sequencing (genomes with multiple contigs). PhageMiner requires only minimal manual input from the user and produces various genome diagrams to ensure a thorough discovery of previously unidentified prophages. 
+order to rapidly identify prophage sequences within complete or fragmented bacterial genomes that result from whole genome sequencing (genomes with multiple contigs). PhageMiner requires only minimal manual input from the user and produces various genome diagrams to aid a thorough discovery of previously unidentified prophages. 
 
 PhageMiner can run on both Linux and macOS. 
 
