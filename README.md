@@ -9,7 +9,7 @@ order to rapidly identify prophage sequences within complete or fragmented (mult
 
 PhageMiner requires only minimal manual input from the user and produces various genome diagrams to aid a thorough discovery of previously unidentified prophages. 
 
-PhageMiner can run on both Linux and macOS. 
+PhageMiner can run on both macOS and Linux. 
 
 **Author**: Reza Rezaei Javan
 
