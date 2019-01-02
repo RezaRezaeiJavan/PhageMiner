@@ -18,7 +18,7 @@ PhageMiner can run on both Linux and macOS.
 Copyright (C) 2019 University of Oxford
 
 ## Usage
-To use PhageMiner, put the main script (PhageMiner.py) and the input file (.gb) in the same folder. Next, run the software using the following command:
+Use the following command to start PhageMiner:
 ```
 python PhageMiner.py <input file>
 ```
