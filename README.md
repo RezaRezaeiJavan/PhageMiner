@@ -58,8 +58,8 @@ PhageMiner can run on both **Linux** and **macOS**. It has been tested on the fo
 ## Input file
 PhageMiner only requires an annotated Genbank file as input. It can work with annotated GenBank (GBK) files automatically downloaded from the NCBI server. However, for the best result, it is highly recommended to freshly annotate your bacterial genome using the RasT server (http://rast.nmpdr.org/). PhageMiner can also work with files annotated using Prokka. An annotated *Streptococcus agalactiae* draft genome is provided as an example input file.
 
-## Output file
-PhageMiner extracts the prophage regions in GenBank files. It also produces genome diagrams of the prophage sequences within bacterial genomes. Based on user input during the discovery process, PhageMiner can categorise extracted prophage regions into three groups: full-length prophages, satellite prophages and unknown phage-related regions. PhageMiner also produces a table containing The nucleotide sequences and annotations names of all phage-related genes in the bacterial genome. Furthermore, a PDF diagram of the host genome is produced, in which the phage clusters and assembly gaps are highlighted. All these features can be inactivated based on the user's preference.  
+## Output files
+PhageMiner produces GenBank files for each identified prophage region. It also produces genome diagrams of the prophage sequences within the bacterial genome. Based on user input during the discovery process, PhageMiner categorises identifed prophage regions into three groups: full-length prophages, satellite prophages and unknown phage-related regions. PhageMiner also produces a table containing the nucleotide sequences and annotations of all phage-related genes in the bacterial genome. Furthermore, a PDF diagram of the host genome is produced, in which the prophage regions and assembly gaps are highlighted.  Each of these features can be inactivated based on the user's preference.  
 
 ## Feedback/Issues
 Please report any issues to the [issues page](https://github.com/RezaRezaeiJavan/PhageMiner/issues) or email reza.rezaeijavan@ndm.ox.ac.uk.
