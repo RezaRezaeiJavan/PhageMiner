@@ -18,6 +18,12 @@ To use PhageMiner, put the main script (PhageMiner.py) and the input file (.gb) 
 python PhageMiner.py <input file>
 ```
 
+## Input file
+PhageMiner only requires an annotated Genbank file as input. It can work with annotated GenBank (GBK) files automatically downloaded from the NCBI server. However, for the best result, it is highly recommended to annotate your bacterial genome using the RasT server (http://rast.nmpdr.org/). PhageMiner can also work with files annotated using Prokka. An annotated *Streptococcus agalactiae* draft genome is provided as an example input file.
+
+## Output file
+PhageMiner extracts the prophage regions in GenBank files. It also produces genome diagrams of the prophage sequences within bacterial genomes. Based on user input during the discovery process, PhageMiner can categorise extracted prophage regions into three groups: full-length prophages, satellite prophages and unknown phage-related regions. PhageMiner also produces a table containing The nucleotide sequences and annotations names of all phage-related genes in the bacterial genome. Furthermore, a PDF diagram of the host genome is produced, in which the phage clusters and assembly gaps are highlighted. All these features can be inactivated based on the user's preference.  
+
 ## Installation
 
 ### Required dependencies
