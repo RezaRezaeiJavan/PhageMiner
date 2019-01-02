@@ -54,3 +54,6 @@ PhageMiner can run on both **Linux** and **macOS**. It has been tested on the fo
 * Linux Ubuntu – 14.04.5 LTS
 * macOS Mojave – 10.14
 * macOS High Sierra – 10.13
+
+## Feedback/Issues
+Please report any issues to the [issues page](https://github.com/RezaRezaeiJavan/PhageMiner/issues) or email reza.rezaeijavan@ndm.ox.ac.uk.
