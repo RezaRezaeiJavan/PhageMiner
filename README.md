@@ -1,4 +1,5 @@
 # PhageMiner
+## Introduction
 **PhageMiner** is a user-supervised semi-automated bioinformatics tool for prophage identification in bacterial genomes.
 
 The main objective of the PhageMiner software is to streamline the otherwise tedious manual curation process for prophage sequence discovery. 
