@@ -23,6 +23,11 @@ Use the following command to start PhageMiner:
 python PhageMiner.py <input file>
 ```
 
+## Input file
+PhageMiner only requires an annotated Genbank file as input. It can work with annotated GenBank (GBK) files automatically downloaded from the NCBI server. However, for the best result, it is highly recommended to freshly annotate your bacterial genome using the RAST (Rapid Annotation using Subsystem Technology) server (http://rast.nmpdr.org/). PhageMiner can also work with files annotated using rapid prokaryotic genome annotation (PROKKA).
+
+An annotated *Streptococcus agalactiae* draft genome is provided as an example input file.
+
 ## Installation
 
 ### Required dependencies
@@ -59,9 +64,6 @@ PhageMiner can run on both **Linux** and **macOS**. It has been tested on the fo
 * Linux Ubuntu – 14.04.5 LTS
 * macOS Mojave – 10.14
 * macOS High Sierra – 10.13
-
-## Input file
-PhageMiner only requires an annotated Genbank file as input. It can work with annotated GenBank (GBK) files automatically downloaded from the NCBI server. However, for the best result, it is highly recommended to freshly annotate your bacterial genome using the RasT server (http://rast.nmpdr.org/). PhageMiner can also work with files annotated using Prokka. An annotated *Streptococcus agalactiae* draft genome is provided as an example input file.
 
 ## Output files
 PhageMiner produces GenBank files for each identified prophage region. It also produces genome diagrams of the prophage sequences within the bacterial genome. Based on user input during the discovery process, PhageMiner categorises identifed prophage regions into three groups: full-length prophages, satellite prophages and unknown phage-related regions. PhageMiner also produces a table containing the nucleotide sequences and annotations of all phage-related genes in the bacterial genome. Furthermore, a PDF diagram of the host genome is produced, in which the prophage regions and assembly gaps are highlighted.  Each of these features can be inactivated based on the user's preference.  
