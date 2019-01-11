@@ -70,6 +70,3 @@ PhageMiner produces GenBank files for each identified prophage region. It also p
 
 ## Feedback/Issues
 Please report any issues to the [issues page](https://github.com/RezaRezaeiJavan/PhageMiner/issues) or email reza.rezaeijavan@ndm.ox.ac.uk.
-
-<meta name="google-site-verification" content="KRWJAAbYDDOVP4AKFic4Qv74FOPCbljQKTqgiOw9paQ" />
-
