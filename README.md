@@ -31,7 +31,7 @@ An annotated *Streptococcus agalactiae* draft genome is provided as an example i
 ## Installation
 
 ### Required dependencies
-PhageMiner has the following python dependencies:
+PhageMiner is currently not compatible with python 3.x, and thus python 2.x is recommended. It also has the following python dependencies:
 * biopython
 * pandas
 * sklearn
