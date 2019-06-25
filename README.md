@@ -17,6 +17,21 @@ PhageMiner can run on both **macOS** and **Linux**.
 
 Copyright (C) 2019 University of Oxford
 
+## Contents
+  * [Introduction](#introduction)
+  * [Usage](#usage)
+  * [Input file](#input-file)
+  * [Installation](#installation)
+    * [Operating Systems](#operating-systems)
+    * [Required dependencies](#required-dependencies)
+      * [biopython](#biopython)
+      * [pandas](#pandas)
+      * [sklearn](#sklearn)
+      * [reportlab](#reportlab)
+  * [Output files](#output-files)
+  * [Feedback/Issues](#feedback-or-issues)
+
+
 ## Usage
 Use the following command to start PhageMiner:
 ```
@@ -28,7 +43,14 @@ PhageMiner only requires an annotated Genbank file as input. It can work with an
 
 An annotated *Streptococcus agalactiae* draft genome is provided as an example input file.
 
+
 ## Installation
+
+### Operating Systems
+PhageMiner can run on both **Linux** and **macOS**. It has been tested on the following operating systems:
+* Linux Ubuntu – 14.04.5 LTS
+* macOS Mojave – 10.14
+* macOS High Sierra – 10.13
 
 ### Required dependencies
 PhageMiner is currently not compatible with python 3.x, and thus python 2.x is recommended. It also has the following python dependencies:
@@ -59,14 +81,9 @@ To install reportlab, insert the following command in the terminal:
 ```
 pip install reportlab
 ```
-### Operating Systems
-PhageMiner can run on both **Linux** and **macOS**. It has been tested on the following operating systems:
-* Linux Ubuntu – 14.04.5 LTS
-* macOS Mojave – 10.14
-* macOS High Sierra – 10.13
 
 ## Output files
 PhageMiner produces GenBank files for each identified prophage region. It also produces genome diagrams of the prophage sequences within the bacterial genome. Based on the user input during the discovery process, PhageMiner categorises identifed prophage regions into three groups: full-length prophages, satellite prophages and unknown phage-related regions. PhageMiner also produces a table containing the nucleotide sequences and annotations of all phage-related genes in the bacterial genome. Furthermore, a PDF diagram of the host genome is produced, in which the prophage regions and assembly gaps are highlighted. Most features can be inactivated based on the user's preference.
 
-## Feedback/Issues
+## Feedback or Issues
 Please report any issues to the [issues page](https://github.com/RezaRezaeiJavan/PhageMiner/issues) or email reza.rezaeijavan@ndm.ox.ac.uk.
