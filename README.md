@@ -11,6 +11,8 @@ PhageMiner requires only minimal manual input from the user and produces various
 
 PhageMiner can run on both **macOS** and **Linux**. 
 
+Full documentation can be found [here](https://github.com/RezaRezaeiJavan/PhageMiner/blob/master/PhageMiner_Documentation.docx?raw=true).
+
 **Author**: Reza Rezaei Javan
 
 **E-mail**: reza.rezaeijavan@ndm.ox.ac.uk
@@ -86,4 +88,4 @@ pip install reportlab
 PhageMiner produces GenBank files for each identified prophage region. It also produces genome diagrams of the prophage sequences within the bacterial genome. Based on the user input during the discovery process, PhageMiner categorises identifed prophage regions into three groups: full-length prophages, satellite prophages and unknown phage-related regions. PhageMiner also produces a table containing the nucleotide sequences and annotations of all phage-related genes in the bacterial genome. Furthermore, a PDF diagram of the host genome is produced, in which the prophage regions and assembly gaps are highlighted. Most features can be inactivated based on the user's preference.
 
 ## Feedback or Issues
-Please report any issues to the [issues page](https://github.com/RezaRezaeiJavan/PhageMiner/issues) or email reza.rezaeijavan@ndm.ox.ac.uk.
+Please report any issues to the [issues page](https://github.com/RezaRezaeiJavan/PhageMiner/issues) or email reza.rezaeijavan@ndm.ox.ac.uk. A more detailed explanation of the PhageMiner software is available [here](https://github.com/RezaRezaeiJavan/PhageMiner/blob/master/PhageMiner_Documentation.docx?raw=true).
