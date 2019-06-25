@@ -61,22 +61,22 @@ PhageMiner is currently not compatible with python 3.x, and thus python 2.x is r
 
 There are a number of ways to install these dependencies and guidelines are provided below for those not familiar with command line interfaces.
 
-### biopython
+#### biopython
 To install biopython, insert the following command in the terminal:
 ```
 pip install biopython
 ```
-### pandas
+#### pandas
 To install pandas, insert the following command in the terminal:
 ```
 pip install pandas
 ```
-### sklearn
+#### sklearn
 To install sklearn, insert the following command in the terminal:
 ```
 pip install -U scikit-learn
 ```
-### reportlab
+#### reportlab
 To install reportlab, insert the following command in the terminal:
 ```
 pip install reportlab
